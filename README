@@ -1,0 +1,8 @@
+Steps:
+1. Converted uploaded excel files to actual google sheet with the same name and data
+2. set up google service account (at https://cloud.google.com/iam/docs/service-accounts) to access and read data from google doc using `gspread` API
+3. Followed instructions in the email to identify the data column to extract
+4. created a sqlite 3 DB and three tables as you may find in `inkomoko.db` file inside DB folder of this project
+5. Added raw data in their corresponding DB
+6. Next I have to use SQL query to get the aggregated values that were requested
+7. Lastly, created dashboard using Power BI to display the value obtained from step 6.
